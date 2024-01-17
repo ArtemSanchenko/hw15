@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.holder {
+    width: 1410px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-list {
+    display: flex;
+ flex-wrap: wrap;
+}
+.container-list-item {
+  flex-basis: 460px;
+  height: 50px;
+}
+.container-list-item:nth-child(1) {
+  background-color: red;
+  order: 1;
+  flex-grow: 1.5;
+  }
+  .container-list-item:nth-child(2) {
+    background-color: blue;
+    flex-shrink: 4;
+    order: 4;
+    }
+    .container-list-item:nth-child(5) {
+      background-color: yellow;
+      order: 2;
+      flex-grow: 1.5;
+    }
+    .container-list-item:nth-child(4) {
+      background-color: green;
+      order: 5;
+    }
+    .container-list-item:nth-child(3) {
+        background-color: purple;
+        order: 3;
+        }
