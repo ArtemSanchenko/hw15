@@ -25,7 +25,7 @@ img {
 }
 
 .link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .visually-hidden {
@@ -42,13 +42,16 @@ img {
 }
 
 .holder {
-    width: 1410px;
+    width: 1420px;
     padding: 0 15px;
     margin: 0 auto;
 }
 .container-list {
     display: flex;
  flex-wrap: wrap;
+ border-style: solid;
+ border-width: 5px;
+ border-radius: 0px 0px 5px 5px;
 }
 .container-list-item {
   flex-basis: 460px;
@@ -58,6 +61,7 @@ img {
   background-color: red;
   order: 1;
   flex-grow: 1.5;
+  flex-basis: 690px;
   }
   .container-list-item:nth-child(2) {
     background-color: blue;
@@ -68,6 +72,7 @@ img {
       background-color: yellow;
       order: 2;
       flex-grow: 1.5;
+      flex-basis: 690px;
     }
     .container-list-item:nth-child(4) {
       background-color: green;
